@@ -1,6 +1,8 @@
 com\veeroute\WebServiceConfig.class
 com\veeroute\CountryEndpoint.class
 com\veeroute\ServletInitializer.class
+io\spring\guides\gs_producing_web_service\SayHiResponse.class
+io\spring\guides\gs_producing_web_service\SayHiRequest.class
 io\spring\guides\gs_producing_web_service\ObjectFactory.class
 com\veeroute\CountryRepository.class
 io\spring\guides\gs_producing_web_service\GetCountryResponse.class

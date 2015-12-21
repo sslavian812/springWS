@@ -37,4 +37,22 @@
             <xs:enumeration value="PLN"/>
         </xs:restriction>
     </xs:simpleType>
+
+
+    <xs:element name="sayHiRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" name="text" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+
+    <xs:element name="sayHiResponse" type="tns:sayHiResponse"/>
+    <xs:complexType name="sayHiResponse">
+        <xs:sequence>
+            <xs:element minOccurs="0" name="return" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
 </xs:schema>
